@@ -1,0 +1,34 @@
+let dia = prompt("¿Que dia de la semana es?");
+if(dia == "sabado" || dia == "domingo"){
+    alert("¡Buen fin de semana!");
+}else{
+    alert("¡Buena semana!");
+}
+/*
+--------------------------------------------------------------
+*/
+let numeroIngresado = prompt("Ingresa un numero");
+if (numeroIngresado >= 0){
+    alert("El numero es positivo")
+}else{
+    alert("El numero es negativo")
+}
+/*
+--------------------------------------------------------------
+*/
+let puntuacion;
+if (puntuacion >= 100){
+    alert("¡Felicidades, has ganado!")
+}else{
+    alert("Lo siento, no has ganado.")
+}
+/*
+--------------------------------------------------------------
+*/
+let saldo = 1000;
+alert(`El saldo de de ${saldo}`);
+/*
+--------------------------------------------------------------
+*/
+let nombre = prompt("Ingresa tu nombre");
+alert(`Hola ${nombre}, ¿Cómo estás hoy?`);
